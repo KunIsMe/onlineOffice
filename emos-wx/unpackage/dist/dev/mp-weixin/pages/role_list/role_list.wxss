@@ -1,0 +1,23 @@
+.page {
+  padding: 35rpx;
+}
+.list .item {
+  padding: 30rpx 15rpx;
+  border-bottom: solid 1rpx #E5E5E5;
+  font-size: 30rpx;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+}
+.list .item .icon {
+  width: 40rpx;
+}
+.btn {
+  margin-top: 100rpx;
+  color: #FFFFFF;
+  background-color: #3474FF;
+}
+.btn:active {
+  background-color: #0052FF;
+}
+

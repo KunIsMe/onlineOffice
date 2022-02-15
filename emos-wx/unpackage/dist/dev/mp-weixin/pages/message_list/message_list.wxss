@@ -1,0 +1,12 @@
+.page {
+  padding: 0;
+}
+.date-right {
+  position: absolute;
+  right: 20rpx;
+}
+.date-right .date {
+  font-size: 24rpx;
+  color: #999999;
+}
+

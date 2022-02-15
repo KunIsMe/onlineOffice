@@ -1,0 +1,47 @@
+.page {
+  padding: 35rpx;
+}
+.header {
+  position: relative;
+  display: flex;
+}
+.header .search-icon {
+  position: absolute;
+  top: 22rpx;
+  left: 25rpx;
+}
+.header .keyword {
+  flex: 1;
+  box-sizing: border-box;
+  height: 70rpx;
+  padding: 0 25rpx 0 70rpx;
+  border: solid 1rpx #EEEEEE;
+  border-radius: 10rpx;
+  background-color: #F5F5F5;
+  font-size: 30rpx;
+  color: #666666;
+}
+.header .btn {
+  box-sizing: border-box;
+  height: 70rpx;
+  line-height: 70rpx;
+  padding: 0 20rpx;
+  margin-left: 20rpx;
+  border-radius: 10rpx;
+  font-size: 28rpx;
+  color: #FFFFFF;
+  background-color: #3474FF;
+}
+.header .btn:active {
+  background-color: #0052FF;
+}
+.list-title {
+  margin-top: 35rpx;
+  margin-bottom: 35rpx;
+  border-left: solid 15rpx #3474FF;
+  padding-left: 20rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #3474FF;
+}
+

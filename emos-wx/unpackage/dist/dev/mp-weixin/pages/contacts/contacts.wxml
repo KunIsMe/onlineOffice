@@ -1,0 +1,1 @@
+<view><uni-indexed-list vue-id="e8b1ac40-1" options="{{list}}" showSelect="{{false}}" data-event-opts="{{[['^click',[['clickContact']]]]}}" bind:click="__e" bind:__l="__l"></uni-indexed-list></view>

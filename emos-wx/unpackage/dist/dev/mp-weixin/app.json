@@ -1,0 +1,68 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/register/register",
+    "pages/meeting_list/meeting_list",
+    "pages/contacts/contacts",
+    "pages/mine/mine",
+    "pages/checkin/checkin",
+    "pages/checkin_result/checkin_result",
+    "pages/my_checkin/my_checkin",
+    "pages/message_list/message_list",
+    "pages/message/message",
+    "pages/meeting/meeting",
+    "pages/members/members",
+    "pages/approval_list/approval_list",
+    "pages/approval/approval",
+    "pages/video_meeting/video_meeting",
+    "pages/role/role",
+    "pages/role_list/role_list",
+    "pages/dept_list/dept_list",
+    "pages/user_list/user_list",
+    "pages/user_info/user_info"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "秒见",
+    "navigationBarBackgroundColor": "#3474FF",
+    "backgroundColor": "#EEEEF4"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#3474FF",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/bar-1.png",
+        "selectedIconPath": "static/bar-1-active.png"
+      },
+      {
+        "text": "会议",
+        "pagePath": "pages/meeting_list/meeting_list",
+        "iconPath": "static/bar-2.png",
+        "selectedIconPath": "static/bar-2-active.png"
+      },
+      {
+        "text": "通讯录",
+        "pagePath": "pages/contacts/contacts",
+        "iconPath": "static/bar-4.png",
+        "selectedIconPath": "static/bar-4-active.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/mine/mine",
+        "iconPath": "static/bar-5.png",
+        "selectedIconPath": "static/bar-5-active.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "人脸签到"
+    }
+  },
+  "usingComponents": {}
+}

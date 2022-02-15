@@ -1,0 +1,119 @@
+.page {
+  padding: 35rpx;
+}
+.list {
+  margin-top: 45rpx;
+  margin-bottom: 35rpx;
+}
+.list .item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1rpx #F0F0F0;
+  padding-bottom: 35rpx;
+  margin-bottom: 45rpx;
+}
+.list .item:last-child {
+  border-bottom: none;
+}
+.list .item .left {
+  margin-right: 30rpx;
+  flex-grow: 0;
+}
+.list .item .left .photo {
+  width: 150rpx;
+  border-radius: 10rpx;
+}
+.list .item .left .name {
+  font-size: 30rpx;
+  color: #333;
+  text-align: center;
+  margin-bottom: 5rpx;
+}
+.list .item .left .desc {
+  font-size: 30rpx;
+  color: #999;
+  text-align: center;
+}
+.list .item .center {
+  flex: 1;
+}
+.list .item .center .title {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20rpx;
+}
+.list .item .center .attr {
+  font-size: 30rpx;
+  color: #999;
+  margin-bottom: 15rpx;
+}
+.list .item .center .attr .result {
+  display: inline-block;
+  padding-top: 0;
+  padding-bottom: 3rpx;
+  width: 130rpx;
+  color: #FFFFFF;
+  text-align: center;
+  background-color: #666666;
+  border-radius: 5rpx;
+}
+.list .item .center .attr .green {
+  display: inline-block;
+  padding-top: 0;
+  padding-bottom: 3rpx;
+  width: 130rpx;
+  color: #FFFFFF;
+  text-align: center;
+  background-color: #666666;
+  border-radius: 5rpx;
+  background-color: #03AE00 !important;
+}
+.list .item .center .attr .red {
+  display: inline-block;
+  padding-top: 0;
+  padding-bottom: 3rpx;
+  width: 130rpx;
+  color: #FFFFFF;
+  text-align: center;
+  background-color: #666666;
+  border-radius: 5rpx;
+  background-color: #E8403A !important;
+}
+.list .item .center .status {
+  font-size: 30rpx;
+  color: #3474FF;
+}
+.list .item .right {
+  flex-grow: 0;
+  margin-left: 35rpx;
+  position: relative;
+}
+.list .item .right .btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 160rpx;
+  font-size: 30rpx;
+  color: #FFFFFF;
+  background-color: #3474FF;
+}
+.list .item .right .btn:active {
+  background-color: #0052FF;
+}
+.list .item .right .icon {
+  width: 150rpx;
+  border-radius: 10rpx;
+}
+.list .item .right .name {
+  font-size: 30rpx;
+  color: #333;
+  text-align: center;
+  margin-bottom: 5rpx;
+}
+.list .item .right .desc {
+  font-size: 30rpx;
+  color: #999;
+  text-align: center;
+}
+

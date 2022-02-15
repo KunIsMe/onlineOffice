@@ -1,0 +1,24 @@
+.page {
+  padding: 0 35rpx 65rpx 35rpx;
+}
+.list-title {
+  margin-top: 55rpx;
+  margin-bottom: 25rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #3474FF;
+  border-left: solid 15rpx #3474FF;
+  padding-left: 20rpx;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 30rpx 10rpx 30rpx 15rpx;
+  font-size: 30rpx;
+  color: #333;
+  border-bottom: solid 1rpx #F0F0F0;
+}
+.item .value {
+  display: block;
+}
+

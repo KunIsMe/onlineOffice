@@ -1,0 +1,65 @@
+.page {
+  padding: 35rpx;
+}
+.user-info {
+  margin-top: 50rpx;
+  padding-bottom: 20rpx;
+}
+.user-info .border-outer {
+  width: 320rpx;
+  height: 320rpx;
+  border-radius: 160rpx;
+  background-color: #FBE3E1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 40rpx;
+}
+.user-info .border-outer .border-inner {
+  width: 280rpx;
+  height: 280rpx;
+  background-color: #F5B8B4;
+  border-radius: 140rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user-info .border-outer .border-inner .photo {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 120rpx;
+  border: solid 20rpx #EC7872;
+}
+.user-info .summary {
+  display: flex;
+  background-color: #F5F5F5;
+  padding: 15rpx 0;
+}
+.user-info .summary view {
+  text-align: center;
+  flex: 1;
+}
+.user-info .summary view:nth-child(2) {
+  border-left: solid 1rpx #E0E0E0;
+  border-right: solid 1rpx #E0E0E0;
+}
+.user-info .summary view .title {
+  display: block;
+  font-size: 28rpx;
+  color: #999999;
+  margin-bottom: 10rpx;
+}
+.user-info .summary view .content {
+  display: block;
+  font-size: 32rpx;
+  color: #333;
+}
+.list-title {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #3474FF;
+  border-left: solid 15rpx #3474FF;
+  padding-left: 20rpx;
+  margin: 35rpx 0;
+}
+

@@ -1,0 +1,69 @@
+.page {
+  padding: 35rpx 0;
+}
+.header {
+  margin-bottom: 15rpx;
+  font-size: 34rpx;
+  font-weight: bold;
+  color: #3474FF;
+  padding: 0 50rpx;
+}
+.attr {
+  padding: 0 35rpx;
+  border-bottom: solid 20rpx #EEEEF4;
+}
+.attr .list .item {
+  padding: 30rpx 10rpx 30rpx 15rpx;
+  border-bottom: solid 1rpx #F0F0F0;
+  font-size: 30rpx;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+}
+.attr .list .item .value {
+  display: block;
+}
+.attr .desc {
+  display: block;
+  font-size: 30rpx;
+  color: #333;
+  line-height: 1.6;
+  padding: 30rpx 10rpx 30rpx 15rpx;
+}
+.members {
+  padding: 45rpx 25rpx;
+}
+.members .number {
+  margin-bottom: 35rpx;
+  padding-left: 20rpx;
+  font-size: 34rpx;
+  font-weight: bold;
+  color: #3474FF;
+}
+.members .member {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.members .member .user {
+  text-align: center;
+  max-width: 20%;
+  min-width: 20%;
+  margin-bottom: 40rpx;
+}
+.members .member .user .photo {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50rpx;
+  margin-bottom: 5rpx;
+}
+.members .member .user .name {
+  display: block;
+  font-size: 30rpx;
+  color: #333;
+  text-align: center;
+}
+.btn {
+  margin: 0 35rpx 35rpx 35rpx;
+}
+

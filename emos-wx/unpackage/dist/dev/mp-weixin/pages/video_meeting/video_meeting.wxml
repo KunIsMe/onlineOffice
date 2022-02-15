@@ -1,0 +1,1 @@
+<view><trtc-room vue-id="46538f60-1" id="trtc-room" config="{{trtcConfig}}" data-com-type="wx" bind:__l="__l"></trtc-room></view>

@@ -1,0 +1,76 @@
+.page {
+  padding: 35rpx;
+}
+.list {
+  margin-bottom: 80rpx;
+}
+.list .item {
+  display: flex;
+  justify-content: space-between;
+  padding: 30rpx 15rpx;
+  border-bottom: solid 1rpx #E5E5E5;
+  font-size: 30rpx;
+  color: #333;
+}
+.list .item .value {
+  display: inline-block;
+  max-width: 50%;
+}
+.list .save-btn {
+  display: block;
+  margin-top: 100rpx;
+  margin-bottom: 30rpx;
+  color: #FFFFFF;
+  background-color: #3474FF;
+}
+.list .save-btn:active {
+  background-color: #0052FF;
+}
+.list .delete-btn {
+  display: block;
+  color: #FFFFFF;
+}
+.shadow {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shadow .dialog {
+  width: 65%;
+  max-height: 800rpx;
+  padding: 45rpx;
+  position: relative;
+  background-color: #FFFFFF;
+  border-radius: 15rpx;
+}
+.shadow .dialog .title {
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20rpx;
+}
+.shadow .dialog .confirm {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 32rpx;
+  color: green;
+}
+.shadow .dialog .list-item {
+  display: block;
+  padding: 15rpx 0;
+  font-size: 32rpx;
+  color: #333;
+}
+.shadow .dialog .list-item text {
+  margin-left: 10rpx;
+  vertical-align: -5rpx;
+}
+

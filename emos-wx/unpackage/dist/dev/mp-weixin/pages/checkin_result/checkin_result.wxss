@@ -1,0 +1,188 @@
+.yellow {
+  background-color: #f0b52f !important;
+}
+.red {
+  background-color: #f0532f !important;
+}
+.green {
+  background-color: #52a929 !important;
+}
+.page {
+  background-color: #EEEEF4;
+}
+.summary-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+  padding: 35rpx;
+  margin-bottom: 20rpx;
+}
+.summary-container .user-info {
+  display: flex;
+}
+.summary-container .user-info .photo {
+  width: 100rpx;
+  height: 100rpx;
+  margin-right: 25rpx;
+}
+.summary-container .user-info .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.summary-container .user-info .info .username {
+  font-size: 34rpx;
+  font-weight: bold;
+  color: #333;
+}
+.summary-container .user-info .info .dept {
+  font-size: 28rpx;
+  color: #999999;
+}
+.summary-container .date {
+  font-size: 38rpx;
+  color: #3474FF;
+}
+.result-container {
+  display: flex;
+  background-color: #FFFFFF;
+  padding: 35rpx;
+  margin-bottom: 20rpx;
+}
+.result-container .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  height: 330rpx;
+  margin-right: 30rpx;
+}
+.result-container .left .icon-timer {
+  width: 40rpx;
+  height: 40rpx;
+}
+.result-container .left .icon-timer:first-child {
+  margin-top: 5rpx;
+}
+.result-container .left .line {
+  position: absolute;
+  height: 225rpx;
+  width: 0;
+  border-left: solid 2rpx #E5E5E5;
+  left: 20rpx;
+  top: 55rpx;
+}
+.result-container .right .row {
+  display: flex;
+  margin-bottom: 25rpx;
+}
+.result-container .right .row .time {
+  font-size: 32rpx;
+  color: #3474FF;
+}
+.result-container .right .row .checkin-time {
+  font-size: 38rpx;
+  font-weight: bold;
+  color: #333;
+  display: inline-block;
+}
+.result-container .right .row .checkin-result {
+  display: inline-block;
+  font-size: 26rpx;
+  color: #FFFFFF;
+  height: 42rpx;
+  line-height: 42rpx;
+  padding: 0 15rpx;
+  border-radius: 8rpx;
+  margin-left: 20rpx;
+}
+.result-container .right .row .icon-small {
+  width: 38rpx;
+  height: 38rpx;
+  margin-right: 10rpx;
+  margin-top: 7rpx;
+}
+.result-container .right .row .desc {
+  color: #999999;
+  font-size: 32rpx;
+}
+.result-container .right .row .other {
+  margin-top: 7rpx;
+}
+.result-container .right .row .max-width {
+  max-width: 400rpx;
+}
+.checkin-report {
+  background-color: #FFFFFF;
+  padding: 35rpx;
+}
+.checkin-report .big-icon {
+  width: 250rpx;
+  display: block;
+  margin: 20rpx auto 0;
+}
+.checkin-report .report-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 20rpx;
+}
+.checkin-report .report-title .days {
+  font-size: 60rpx;
+  color: #333;
+}
+.checkin-report .report-title .unit {
+  margin-left: 10rpx;
+  margin-top: 33rpx;
+  color: #333;
+}
+.checkin-report .sub-title {
+  font-size: 34rpx;
+  color: #333;
+  text-align: center;
+  position: relative;
+  margin-top: 10rpx;
+}
+.checkin-report .sub-title text {
+  background-color: #FFFFFF;
+  padding: 0 30rpx;
+  z-index: 999;
+  position: relative;
+}
+.checkin-report .sub-title .line {
+  height: 0;
+  width: 100%;
+  border-top: solid 2rpx #E5E5E5;
+  position: absolute;
+  top: 25rpx;
+}
+.checkin-report .calendar-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30rpx;
+}
+.checkin-report .calendar-container .calendar {
+  text-align: center;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.checkin-report .calendar-container .calendar .calendar-icon {
+  width: 70rpx;
+  display: block;
+  margin-bottom: 5rpx;
+}
+.checkin-report .calendar-container .calendar .day {
+  font-size: 32rpx;
+  color: #333;
+  display: block;
+}
+.checkin-report .calendar-container .calendar .result {
+  display: block;
+  margin-top: 10rpx;
+  font-size: 26rpx;
+  color: #FFFFFF;
+  height: 42rpx;
+  line-height: 42rpx;
+  padding: 0 5rpx;
+  border-radius: 8rpx;
+}
+

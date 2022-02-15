@@ -1,0 +1,94 @@
+server:
+  tomcat:
+    uri-encoding: UTF-8
+    threads:
+      max: 200
+      min-spare: 30
+    connection-timeout: 5000ms
+  port: 8080
+  servlet:
+    context-path: /emos-wx-api
+
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/emos?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+      username: root
+      password: abc123456
+      initial-size: 8
+      max-active: 16
+      min-idle: 8
+      max-wait: 60000
+      test-while-idle: true
+      test-on-borrow: false
+      test-on-return: false
+
+  redis:
+    database: 0
+    host: localhost
+    port: 6379
+    password: abc123456
+    jedis:
+      pool:
+        max-active: 1000
+        max-wait: -1ms
+        max-idle: 16
+        min-idle: 8
+
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: emos
+      authentication-database: admin
+      username: admin
+      password: abc123456
+
+  mail:
+    default-encoding: UTF-8
+    host: smtp.aliyun.com
+    username: zhangkun1999@aliyun.com
+    password: 123000qaz
+
+mybatis:
+  mapper-locations: classpath*:mapper/*.xml
+  type-aliases-package: com.zhangkun.emos.wx.db.pojo
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
+
+logging:
+  level:
+    root: info
+    com.zhangkun.emos.wx.db.dao : warn
+  pattern:
+    console: "%d{HH:mm:ss}  %-5level  %msg%n"
+
+emos:
+  jwt:
+    secret: 123000qaz
+    expire: 5
+    cache-expire: 10
+  face:
+    createFaceModelUrl: http://localhost:3000/create_face_model
+    checkinUrl: http://localhost:3000/checkin
+  email:
+    system: zhangkun1999@aliyun.com
+    hr: zhangkun19990610@163.com
+  image-folder: /root/emos/image
+  code: 94A49B4806517042
+  recieveNotify: http://localhost:8080/emos-wx-api/meeting/recieveNotify
+
+workflow:
+  url: http://localhost:9090/emos-workflow
+
+trtc:
+  appid: 1400566137
+  key: 84e69b8ba15413b55b6540475fbb79847d240578a9e87544ca65d3d0c8d902b9
+  expire: 86400
+
+wx:
+  app-id: wx556ca548162a9aaa
+  app-secret: 5f5445a1e9e465495ec9f53375ab8123

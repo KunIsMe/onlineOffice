@@ -1,0 +1,82 @@
+@import url("../../style.less");
+
+.page {
+	padding: 35rpx;
+}
+
+.list {
+	margin-bottom: 80rpx;
+	.item {
+		display: flex;
+		justify-content: space-between;
+		padding: 30rpx 15rpx;
+		border-bottom: solid 1rpx #E5E5E5;
+		font-size: 30rpx;
+		color: @font-color;
+		.key {
+			
+		}
+		.value {
+			display: inline-block;
+			max-width: 50%;
+		}
+	}
+	.save-btn {
+		display: block;
+		margin-top: 100rpx;
+		margin-bottom: 30rpx;
+		color: #FFFFFF;
+		background-color: @background-color;
+		&:active {
+			background-color: @background-color-active;
+		}
+	}
+	.delete-btn {
+		display: block;
+		color: #FFFFFF;
+	}
+}
+
+.shadow {
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	.dialog {
+		width: 65%;
+		max-height: 800rpx;
+		padding: 45rpx;
+		position: relative;
+		background-color: #FFFFFF;
+		border-radius: 15rpx;
+		.title {
+			font-size: 36rpx;
+			font-weight: bold;
+			color: @font-color;
+			margin-bottom: 20rpx;
+		}
+		.confirm {
+			position: absolute;
+			top: 0;
+			right: 0;
+			font-size: 32rpx;
+			color: green;
+		}
+		.list-item {
+			display: block;
+			padding: 15rpx 0;
+			font-size: 32rpx;
+			color: @font-color;
+			text {
+				margin-left: 10rpx;
+				vertical-align: -5rpx;
+			}
+		}
+	}
+}

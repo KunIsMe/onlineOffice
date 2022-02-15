@@ -1,0 +1,21 @@
+.page {
+  padding: 35rpx;
+}
+.list-title {
+  margin-top: 35rpx;
+  margin-bottom: 35rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #3474FF;
+  border-left: solid 15rpx #3474FF;
+  padding-left: 20rpx;
+}
+.btn {
+  margin-top: 100rpx;
+  color: #FFFFFF;
+  background-color: #3474FF;
+}
+.btn:active {
+  background-color: #0052FF;
+}
+

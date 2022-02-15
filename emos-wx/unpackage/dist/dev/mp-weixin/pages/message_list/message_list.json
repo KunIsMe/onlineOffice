@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "邮箱",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-list": "/components/uni-list/uni-list",
+    "uni-list-chat": "/components/uni-list-chat/uni-list-chat",
+    "uni-list-item": "/components/uni-list-item/uni-list-item"
+  }
+}
